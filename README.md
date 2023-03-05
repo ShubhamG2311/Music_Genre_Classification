@@ -10,5 +10,5 @@ In short, the problem statement is to categorise various audio files into differ
 The dataset I have used is named the GTZAN genre collection dataset which is a very popular audio collection dataset. It contains approximately 1000 audio files that belong to 10 different classes. Each audio file is in .wav format (extension). The classes to which audio files belong are Blues, Hip-hop, classical, pop, Disco, Country, Metal, Jazz, Reggae, and Rock. 
 
 ## Models used: 
-I haved used various classification models such as Random Forest Classifier, LightGBM, Gradient Boosting and SVM(various kernels). After that I trained all these models on the training dataset and then predicted the result on the testing dataset. I visualised and analysed the results and I came to conclusion that SVM(Support Vector Machine) with RBF came out to be the best model with highest accuracy.
+I haved used various classification models such as Gaussian Naive Bayes, KNN,  Decision Tree Classifier, Random Forest Classifier, Support Vector Machine, Logistic Regression, MLP Classifier(Neural Networks), and XGB Classifier. After that I trained all these models on the training dataset and then predicted the result on the testing dataset. I visualised and analysed the results and I came to conclusion that XGB Classifier came out to be the best model with highest accuracy.
 
